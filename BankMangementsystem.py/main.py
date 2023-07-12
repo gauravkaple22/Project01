@@ -215,8 +215,8 @@ class SecondaryGUI:
         if len(mobile_number) == 10 and mobile_number.isdigit():
             connection1 = mysql.connector.connect(
                 host="localhost",
-                user="root",
-                password="lucifer*7812",
+                user="****",
+                password="*****",
                 database="bms_data"
             )
 
@@ -388,8 +388,8 @@ class BankManagementSystem1:
 
         connection = mysql.connector.connect(
             host="localhost",
-            user="root",
-            password="lucifer*7812",
+            user="****",
+            password="******",
             database="bms_data"
         )
         cursor = connection.cursor()
